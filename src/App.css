@@ -75,7 +75,24 @@
 }
 
 .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
   transition: margin-left 0.4s ease-in-out;
+}
+
+.content img{
+  width: 150px;
+  padding: 20px;
+}
+
+.shop-ctn {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
 }
 
 .content.shifted {

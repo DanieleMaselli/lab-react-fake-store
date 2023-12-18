@@ -13,7 +13,7 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<ProductListPage />} />
+        <Route path="/" element={<ProductListPage/>} />
         <Route path="/product/details/:productId" element={<ProductDetailsPage />} />
       </Routes>
 
@@ -22,3 +22,7 @@ function App() {
 }
 
 export default App;
+
+
+
+
